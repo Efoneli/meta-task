@@ -16,7 +16,6 @@ function Footer() {
           <img class='p-2' src={iGG} alt='ig' />
           <img class='p-2' src={twitter} alt='twitter' />
         </div>
-        <p>(c) 2022 Metabnb</p>
       </div>
       <div>
         <h1 class='font-bold py-3'>Community</h1>
@@ -40,6 +39,8 @@ function Footer() {
         <p>Contact us</p>
       </div>
       </div>
+      <p className='bg-black text-white px-32 '>(c) 2022 Metabnb</p>
+
     </div>
   )
 }
